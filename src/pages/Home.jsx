@@ -50,7 +50,7 @@ const Home = () => {
 									}}>
 									<Link
 										className="inline-block px-7 py-3 mr-2 border-2 border-purple-600 bg-purple-600 text-zinc-50 font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-zinc-50 hover:text-pink-500 hover:shadow-lg hover:border-pink-500 focus:bg-zinc-50 focus:text-pink-500 focus:border-pink-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-zinc-50 active:shadow-lg transition duration-150 ease-in-out"
-										href={"resume link here"}
+										to={"resume link here"}
 										role="button"
 										aria-label="Resume view button"
 										locale={false}
@@ -60,10 +60,10 @@ const Home = () => {
 									</Link>
 									<Link
 										className="inline-block px-7 py-3 mr-2 bg-transparent border-2 border-purple-600 bg-zinc-50 text-purple-600 font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-pink-500 hover:shadow-lg hover:text-zinc-50 hover:border-pink-500 focus:bg-pink-500 focus:border-pink-500 focus:text-zinc-50 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-500 active:shadow-lg transition duration-150 ease-in-out"
-										href="/portfolio"
+										to="/showcase"
 										role="button"
-										aria-label="Portfolio link button">
-										PORTFOLIO
+										aria-label="Showcase link button">
+										Showcase
 									</Link>
 								</motion.div>
 							</div>
