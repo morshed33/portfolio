@@ -11,12 +11,16 @@
 	},
 	"dependencies": {
 		"firebase": "^9.22.0",
+		"framer-motion": "^10.12.17",
 		"localforage": "^1.10.0",
 		"match-sorter": "^6.3.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
+		"react-particles": "^2.10.1",
 		"react-router-dom": "^6.11.1",
-		"sort-by": "^0.0.2"
+		"react-type-animation": "^3.1.0",
+		"sort-by": "^0.0.2",
+		"tsparticles": "^2.10.1"
 	},
 	"devDependencies": {
 		"@types/react": "^18.0.28",
