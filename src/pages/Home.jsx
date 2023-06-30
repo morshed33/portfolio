@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import Background from "../components/Background";
 import morshed from '../assets/Morshed.jpg'
-import resume from "../assets/Morshed Resume.pdf";
+import resume from "../assets/Morshed-Resume.pdf";
 const Home = () => {
 	return (
 		<>

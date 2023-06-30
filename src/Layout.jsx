@@ -52,7 +52,8 @@ const Layout = () => {
 						<>
 							<main className="min-h-screen bg-zinc-50 dark:bg-slate-900 z-0">
 								<Navbar />
-								<Outlet />
+                  <Outlet />
+                  
 								{location.pathname === '/' ? null : <Footer />}
 							</main>
 						</>

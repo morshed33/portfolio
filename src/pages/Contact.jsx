@@ -2,6 +2,7 @@ import { useState } from "react";
 import Heading from "../components/Heading";
 import { motion } from "framer-motion";
 import * as emailjs from "@emailjs/browser";
+import Socials from "../components/Socials";
 
 const serviceId = import.meta.env.VITE_EMAILJS_SERVICE;
 const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE;
@@ -64,6 +65,13 @@ const Contact = () => {
 					title="Contact"
 					paragraph="Get in touch! Contact me anytime"
 				/>
+				<motion.div
+					initial={{ y: -100, opacity: 0 }}
+					animate={{ y: 0, opacity: 1 }}
+					transition={{ type: "spring", stiffness: 100, delay: .75 }}
+					className="flex justify-center">
+					<Socials style={"flex text-3xl"} />
+				</motion.div>
 				<motion.div
 					initial={{ y: -100, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
