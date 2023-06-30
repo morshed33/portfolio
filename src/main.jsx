@@ -6,6 +6,7 @@ import Layout from "./Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Showcase from "./pages/Showcase";
 
 const router = createBrowserRouter([
 	{
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "/showcase",
-				element: "showcase",
+				element: <Showcase />,
 			},
 			{
 				path: "/blog",
