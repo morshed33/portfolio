@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
 import { Outlet, useLocation, useNavigation } from "react-router-dom";
+import Footer from "./components/Footer";
 
 const variants = {
 	inactive: {
@@ -34,7 +35,7 @@ const variants = {
 
 const Layout = () => {
 	const navigation = useNavigation();
-  const location = useLocation();
+	const location = useLocation();
 
 	return (
 		<>
@@ -52,6 +53,7 @@ const Layout = () => {
 							<main className="min-h-screen bg-zinc-50 dark:bg-slate-900 z-0">
 								<Navbar />
 								<Outlet />
+								{location.pathname === '/' ? null : <Footer />}
 							</main>
 						</>
 					)}

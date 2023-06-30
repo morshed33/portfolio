@@ -228,7 +228,6 @@ const About = () => {
 						</div>
 					</motion.div>
 				</div>
-				<div className="h-12"></div>
 			</section>
 		</>
 	);
