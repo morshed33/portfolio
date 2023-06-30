@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import Background from "../components/Background";
 import morshed from '../assets/Morshed.jpg'
-
+import resume from "../assets/Morshed Resume.pdf";
 const Home = () => {
 	return (
 		<>
@@ -50,7 +50,7 @@ const Home = () => {
 									}}>
 									<Link
 										className="inline-block px-7 py-3 mr-2 border-2 border-purple-600 bg-purple-600 text-zinc-50 font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-zinc-50 hover:text-pink-500 hover:shadow-lg hover:border-pink-500 focus:bg-zinc-50 focus:text-pink-500 focus:border-pink-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-zinc-50 active:shadow-lg transition duration-150 ease-in-out"
-										to={"resume link here"}
+										to={resume}
 										role="button"
 										aria-label="Resume view button"
 										locale={false}
