@@ -65,10 +65,11 @@ const Contact = () => {
 					title="Contact"
 					paragraph="Get in touch! Contact me anytime"
 				/>
+
 				<motion.div
 					initial={{ y: -100, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
-					transition={{ type: "spring", stiffness: 100, delay: .75 }}
+					transition={{ type: "spring", stiffness: 100, delay: 0.75 }}
 					className="flex justify-center">
 					<Socials style={"flex text-3xl"} />
 				</motion.div>
@@ -96,18 +97,24 @@ const Contact = () => {
 										</a>
 									</h6>
 								</div>
+
 								<div className="mb-12 lg:mb-0 text-center mx-auto">
-									<svg
-										className="w-6 h-6 md:w-8 md:h-8 text-purple-600 mb-6 mx-auto hover:text-pink-500"
-										xmlns="http://www.w3.org/2000/svg"
-										viewBox="0 0 384 512">
-										<path
-											fill="currentColor"
-											d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
-									</svg>
-									<h6 className="font-medium text-sm md:text-md text-zinc-800 dark:text-zinc-50">
-										Dhaka, Bangladesh
-									</h6>
+									<a
+										href="https://goo.gl/maps/9xvQn882pxJPbi2g8"
+										target="_blank"
+										rel="noreferrer noopener">
+										<svg
+											className="w-6 h-6 md:w-8 md:h-8 text-purple-600 mb-6 mx-auto hover:text-pink-500"
+											xmlns="http://www.w3.org/2000/svg"
+											viewBox="0 0 384 512">
+											<path
+												fill="currentColor"
+												d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+										</svg>
+										<h6 className="font-medium text-sm md:text-md text-zinc-800 dark:text-zinc-50">
+											Dhaka, Bangladesh
+										</h6>
+									</a>
 								</div>
 								<div className="mb-6 md:mb-0 text-center mx-auto">
 									<h6 className="font-medium text-sm md:text-md text-zinc-800 dark:text-zinc-50">
