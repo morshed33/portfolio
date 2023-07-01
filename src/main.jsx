@@ -26,10 +26,6 @@ const router = createBrowserRouter([
 				element: <Showcase />,
 			},
 			{
-				path: "/blog",
-				element: "blog",
-			},
-			{
 				path: "/contact",
 				element: <Contact />,
 			},

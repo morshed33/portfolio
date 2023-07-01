@@ -1,41 +1,57 @@
 const portfolioData = [
 	{
 		title: "Hungry Dev",
-		imgUrl: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+		imgUrl: "https://i.ibb.co/ZBX3TgV/hungrudev-Hero.png",
 		alt: "Image for hungry devsite project",
 		description:
 			"Hungry dev is a MERN project which emphasize on responsiveness and user experince.",
-		repo: "https://github.com/devMorshed/hungryDev-client",
+		client: "https://github.com/devMorshed/hungryDev-client",
+		server: "https://github.com/devMorshed/hungryDev-server",
 		to: "https://hungrydev.firebaseapp.com/",
 		tags: ["#REACT", "#TAILWIND", "#MONGODB", "#FIREBASE"],
 	},
 	{
 		title: "Toy Vortex",
-		imgUrl: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+		imgUrl: "https://i.ibb.co/kGrZKt6/Screenshot-from-2023-07-01-19-51-26.png",
 		alt: "Toy Vortex site image",
 		description:
 			"Toy Vortex is a MERN stack project buit on using MongoDB Express React and Nodejs.",
-		repo: "https://github.com/devMorshed/toyVortex",
-		to: "hhttps://toyvortex.web.app",
+		client: "https://github.com/devMorshed/toyVortex/tree/main/client",
+		server: "https://github.com/devMorshed/toyVortex/tree/main/server",
+		to: "https://toyvortex.web.app",
 		tags: ["#REACT", "#TAILWIND", "#MONGODB", "#FIREBASE"],
 	},
 	{
 		title: "Dev Art",
-		imgUrl: "https://images.unsplash.com/photo-1611605698335-8b1569810432?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+		imgUrl: "https://i.ibb.co/SxCsq4y/Screenshot-from-2023-07-01-19-52-16.png",
 		alt: "Image for christians twitter bot project",
 		description:
 			"Devart is a MERN stack project built on using MongoDB Express React and Nodejs.",
-		repo: "https://github.com/devMorshed/devArt-Client",
+		client: "https://github.com/devMorshed/devArt-Client",
+		server: "https://github.com/devMorshed/devArt-Server",
 		to: "https://devart-12.web.app/",
 		tags: ["#REACT", "#TAILWIND", "#MONGODB", "#STRIPE", "#FRAMER MOTION"],
 	},
 	{
 		title: "dev Hub",
-		imgUrl: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80",
+		imgUrl: "https://i.ibb.co/WPfsnLv/Screenshot-from-2023-07-01-19-52-41.png",
 		alt: "Job Project Image",
-		description: "A job portal for developers.",
-		repo: "https://github.com/devMorshed/devHub",
+		description:
+			"Frontend Project of job portal for developers to publish and apply job",
+		client: "https://github.com/devMorshed/devHub",
+		server: "https://github.com/devMorshed/devHub",
 		to: "https://b7a9.surge.sh/",
+		tags: ["#TAILWIND", "#REACT", "#CHARTJS", "FIREBASE"],
+	},
+	{
+		title: "dev Trav",
+		imgUrl: "https://i.ibb.co/wNsCGv4/Screenshot-from-2023-07-01-19-57-29.png",
+		alt: "Job Project Image",
+		description:
+			"Frontend Project of job portal for developers to publish and apply job",
+		client: "https://github.com/devMorshed/devTrav/tree/main/client",
+		server: "https://github.com/devMorshed/devTrav/tree/main/server",
+		to: "https://devtrav.web.app/",
 		tags: ["#TAILWIND", "#REACT", "#CHARTJS", "FIREBASE"],
 	},
 ];

@@ -34,7 +34,8 @@ const Showcase = () => {
 										imageUrl={data.imgUrl}
 										alt={data.alt}
 										description={data.description}
-										repo={data.repo}
+										client={data.client}
+										server={data.server}
 										to={data.to}
 										tags={data.tags}
 									/>

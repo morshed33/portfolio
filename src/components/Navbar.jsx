@@ -188,13 +188,13 @@ const Navbar = () => {
 							</Link>
 						</li>
 
-						<li className="p-4 font-medium hover:text-purple-600 transition duration-150 ease-in-out">
+						{/* <li className="p-4 font-medium hover:text-purple-600 transition duration-150 ease-in-out">
 							<Link
 								to="/blog"
 								aria-label="S M Morshed | Blog Page">
 								Blog
 							</Link>
-						</li>
+						</li> */}
 						<li className="p-4 font-medium hover:text-purple-600 transition duration-150 ease-in-out">
 							<Link
 								to="/contact"
@@ -289,7 +289,7 @@ const Navbar = () => {
 								</Link>
 							</motion.div>
 						</li>
-						<li className="text-zinc-900 dark:text-zinc-200 text-2xl hover:text-purple-600 w-full text-center p-4">
+						{/* <li className="text-zinc-900 dark:text-zinc-200 text-2xl hover:text-purple-600 w-full text-center p-4">
 							<motion.div
 								animate={nav ? "open" : "closed"}
 								variants={fifthVariant}>
@@ -301,7 +301,7 @@ const Navbar = () => {
 									Blog
 								</Link>
 							</motion.div>
-						</li>
+						</li> */}
 						<li className="text-zinc-900 dark:text-zinc-200 text-2xl hover:text-purple-600 w-full text-center p-4">
 							<motion.div
 								animate={nav ? "open" : "closed"}
