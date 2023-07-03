@@ -1,5 +1,5 @@
 import { FaGithub, FaLink } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const PortfolioCard = ({
 	title,
@@ -11,8 +11,12 @@ const PortfolioCard = ({
 	to,
 	tags,
 }) => {
+
+  const navigate = useNavigate();
 	return (
-		<div className="max-w-screen  h-full overflow-hidden rounded-lg shadow-2xl bg-white dark:bg-slate-800">
+    <div onClick={() => {
+      navigate(`project/${title}`)
+    }} className="max-w-screen border cursor-pointer   h-full overflow-hidden rounded-lg shadow-2xl bg-white dark:bg-slate-800">
 			<div
 				className="bg-cover bg-center h-48 w-full "
 				style={{

@@ -5,6 +5,7 @@ import Background from "../components/Background";
 import morshed from '../assets/Morshed.jpg'
 import resume from "../assets/Morshed-Resume.pdf";
 const Home = () => {
+  
 	return (
 		<>
 			<section>
