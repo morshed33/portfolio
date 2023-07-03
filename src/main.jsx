@@ -8,11 +8,13 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Showcase from "./pages/Showcase";
 import Project from "./pages/Project";
+import ErrorPage from "./pages/ErrorPage";
 
 const router = createBrowserRouter([
 	{
 		path: "/",
 		element: <Layout />,
+		errorElement: <ErrorPage />,
 		children: [
 			{
 				path: "/",
