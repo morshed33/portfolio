@@ -106,7 +106,7 @@ const portfolioData = [
 			"https://picsum.photos/200/300?random=3",
 			"https://picsum.photos/200/300?random=4",
 		],
-		alt: "Job Project Image",
+		alt: "devTrav Project Images",
 		description:
 			"Frontend Project of job portal for developers to publish and apply job",
 		client: "https://github.com/devMorshed/devTrav/tree/main/client",
