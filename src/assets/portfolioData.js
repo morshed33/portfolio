@@ -1,5 +1,31 @@
 const portfolioData = [
 	{
+		title: "Dev Art",
+		imgUrl: "https://i.ibb.co/SxCsq4y/Screenshot-from-2023-07-01-19-52-16.png",
+		images: [
+			"https://i.ibb.co/f4BZzDk/devart1.png",
+			"https://i.ibb.co/7ghDmkw/devart2.png",
+			"https://i.ibb.co/2PPs5Jn/devart3.png",
+			"https://i.ibb.co/qrB7hp0/devart4.png",
+			"https://i.ibb.co/XDJht2q/devart5.png",
+			"https://i.ibb.co/pw7k5nj/devart6.png",
+		],
+		alt: "Image for christians twitter bot project",
+		description:
+			"Devart is a MERN stack project built on using MongoDB Express React and Nodejs.",
+		client: "https://github.com/devMorshed/devArt-Client",
+		server: "https://github.com/devMorshed/devArt-Server",
+		to: "https://devlearn.web.app/",
+		tags: ["#REACT", "#TAILWIND", "#MONGODB", "#STRIPE", "#FRAMER MOTION"],
+		features: [
+			"MERN Stack Project",
+			"Extra focus to responsiveness",
+			"Functional Backend Server",
+			"Secured server APIs",
+		],
+		technologies: ["React", "Tailwind", "JWT", "MongoDB", "Firebase"],
+	},
+	{
 		title: "Hungry Dev",
 		imgUrl: "https://i.ibb.co/ZBX3TgV/hungrudev-Hero.png",
 		images: [
@@ -13,7 +39,7 @@ const portfolioData = [
 			"Hungry dev is a MERN project which emphasize on responsiveness and user experince.",
 		client: "https://github.com/devMorshed/hungryDev-client",
 		server: "https://github.com/devMorshed/hungryDev-server",
-		to: "https://hungrydev.firebaseapp.com/",
+		to: "https://hungrydev.web.app/",
 		tags: ["#REACT", "#TAILWIND", "#MONGODB", "#FIREBASE"],
 		features: [
 			"MERN Stack Project",
@@ -47,32 +73,7 @@ const portfolioData = [
 		],
 		technologies: ["React", "Tailwind", "JWT", "MongoDB", "Firebase"],
 	},
-	{
-		title: "Dev Art",
-		imgUrl: "https://i.ibb.co/SxCsq4y/Screenshot-from-2023-07-01-19-52-16.png",
-		images: [
-			"https://i.ibb.co/f4BZzDk/devart1.png",
-			"https://i.ibb.co/7ghDmkw/devart2.png",
-			"https://i.ibb.co/2PPs5Jn/devart3.png",
-			"https://i.ibb.co/qrB7hp0/devart4.png",
-			"https://i.ibb.co/XDJht2q/devart5.png",
-			"https://i.ibb.co/pw7k5nj/devart6.png",
-		],
-		alt: "Image for christians twitter bot project",
-		description:
-			"Devart is a MERN stack project built on using MongoDB Express React and Nodejs.",
-		client: "https://github.com/devMorshed/devArt-Client",
-		server: "https://github.com/devMorshed/devArt-Server",
-		to: "https://devart-12.web.app/",
-		tags: ["#REACT", "#TAILWIND", "#MONGODB", "#STRIPE", "#FRAMER MOTION"],
-		features: [
-			"MERN Stack Project",
-			"Extra focus to responsiveness",
-			"Functional Backend Server",
-			"Secured server APIs",
-		],
-		technologies: ["React", "Tailwind", "JWT", "MongoDB", "Firebase"],
-	},
+	
 	{
 		title: "dev Hub",
 		imgUrl: "https://i.ibb.co/WPfsnLv/Screenshot-from-2023-07-01-19-52-41.png",
