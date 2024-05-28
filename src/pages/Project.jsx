@@ -39,7 +39,6 @@ const Project = () => {
 		setCurrentIndex((currentIndex - 1 + images.length) % images.length);
 	};
 
-	console.log(tags);
 
 	return (
 		<>
