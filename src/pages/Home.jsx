@@ -22,6 +22,10 @@ const Home = () => {
 				<meta property="og:title" content="S M Morshed | MERN Stack Developer" />
 				<meta property="og:description" content="Professional MERN Stack Developer specializing in React, Node.js, MongoDB, and Express.js. Explore my portfolio and projects." />
 				<meta property="og:image" content="https://portfolio.smmorshed.tech/Morshed.jpg" />
+				<meta property="og:image:width" content="300" />
+				<meta property="og:image:height" content="300" />
+				<meta property="og:image:alt" content="Professional headshot of S M Morshed, MERN Stack Developer" />
+				<meta property="og:image:type" content="image/jpeg" />
 				<meta property="og:site_name" content="S M Morshed Portfolio" />
 				<meta property="og:locale" content="en_US" />
 
@@ -31,6 +35,7 @@ const Home = () => {
 				<meta property="twitter:title" content="S M Morshed | MERN Stack Developer" />
 				<meta property="twitter:description" content="Professional MERN Stack Developer specializing in React, Node.js, MongoDB, and Express.js." />
 				<meta property="twitter:image" content="https://portfolio.smmorshed.tech/Morshed.jpg" />
+				<meta property="twitter:image:alt" content="Professional headshot of S M Morshed, MERN Stack Developer" />
 
 				{/* Additional SEO */}
 				<link rel="canonical" href="https://portfolio.smmorshed.tech/" />

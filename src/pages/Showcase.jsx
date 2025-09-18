@@ -20,6 +20,10 @@ const Showcase = () => {
 				<meta property="og:title" content="Portfolio Showcase | S M Morshed Projects" />
 				<meta property="og:description" content="Explore my MERN Stack portfolio projects including DevArt, Hungry Dev, Toy Vortex, and more. View live demos and source code." />
 				<meta property="og:image" content="https://portfolio.smmorshed.tech/Morshed.jpg" />
+				<meta property="og:image:width" content="300" />
+				<meta property="og:image:height" content="300" />
+				<meta property="og:image:alt" content="Professional headshot of S M Morshed, MERN Stack Developer" />
+				<meta property="og:image:type" content="image/jpeg" />
 				<meta property="og:site_name" content="S M Morshed Portfolio" />
 				<meta property="og:locale" content="en_US" />
 
@@ -29,6 +33,7 @@ const Showcase = () => {
 				<meta property="twitter:title" content="Portfolio Showcase | S M Morshed Projects" />
 				<meta property="twitter:description" content="Explore my MERN Stack portfolio projects including DevArt, Hungry Dev, Toy Vortex, and more." />
 				<meta property="twitter:image" content="https://portfolio.smmorshed.tech/Morshed.jpg" />
+				<meta property="twitter:image:alt" content="Professional headshot of S M Morshed, MERN Stack Developer" />
 
 				{/* Additional SEO */}
 				<link rel="canonical" href="https://portfolio.smmorshed.tech/showcase" />
