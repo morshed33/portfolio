@@ -21,10 +21,10 @@ const Home = () => {
 				<meta property="og:url" content="https://portfolio.smmorshed.tech/" />
 				<meta property="og:title" content="S M Morshed - MERN Stack Developer Portfolio | React, Node.js, MongoDB Expert" />
 				<meta property="og:description" content="Discover S M Morshed's professional portfolio - Expert MERN Stack Developer specializing in React, Node.js, MongoDB, and Express.js. View impressive web development projects and get in touch for collaboration opportunities." />
-				<meta property="og:image" content="https://portfolio.smmorshed.tech/social-banner.jpg" />
-				<meta property="og:image:width" content="1200" />
-				<meta property="og:image:height" content="630" />
-				<meta property="og:image:alt" content="S M Morshed - MERN Stack Developer Portfolio Banner" />
+				<meta property="og:image" content="https://e-commerce-test.sgp1.digitaloceanspaces.com/notneeded/users/1758213170310-Morshed.jpg" />
+				<meta property="og:image:width" content="300" />
+				<meta property="og:image:height" content="300" />
+				<meta property="og:image:alt" content="S M Morshed - MERN Stack Developer Profile Photo" />
 				<meta property="og:image:type" content="image/jpeg" />
 				<meta property="og:site_name" content="S M Morshed Portfolio" />
 				<meta property="og:locale" content="en_US" />
@@ -34,8 +34,8 @@ const Home = () => {
 				<meta property="twitter:url" content="https://portfolio.smmorshed.tech/" />
 				<meta property="twitter:title" content="S M Morshed - MERN Stack Developer Portfolio | React, Node.js, MongoDB Expert" />
 				<meta property="twitter:description" content="Discover S M Morshed's professional portfolio - Expert MERN Stack Developer specializing in React, Node.js, MongoDB, and Express.js." />
-				<meta property="twitter:image" content="https://portfolio.smmorshed.tech/social-banner.jpg" />
-				<meta property="twitter:image:alt" content="S M Morshed - MERN Stack Developer Portfolio Banner" />
+				<meta property="twitter:image" content="https://e-commerce-test.sgp1.digitaloceanspaces.com/notneeded/users/1758213170310-Morshed.jpg" />
+				<meta property="twitter:image:alt" content="S M Morshed - MERN Stack Developer Profile Photo" />
 
 				{/* Additional SEO */}
 				<link rel="canonical" href="https://portfolio.smmorshed.tech/" />
