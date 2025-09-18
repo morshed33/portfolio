@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 
 import Heading from "../components/Heading";
@@ -15,6 +16,7 @@ const Project = () => {
 	}, []);
 
 	const param = useParams();
+	const project = portfolioData.find((project) => project.title === param.id);
 	const {
 		title,
 		imageUrl,
@@ -27,7 +29,7 @@ const Project = () => {
 		images,
 		features,
 		technologies,
-	} = portfolioData.find((project) => project.title === param.id);
+	} = project;
 
 	const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -42,6 +44,32 @@ const Project = () => {
 
 	return (
 		<>
+			<Helmet>
+				<title>{title} | S M Morshed Portfolio Project</title>
+				<meta name="description" content={`${description} - View this MERN Stack project by S M Morshed featuring ${technologies?.join(', ')}. ${features?.join(', ')}.`} />
+				<meta name="keywords" content={`${title}, ${technologies?.join(', ')}, MERN Stack Project, S M Morshed Portfolio, React Project, Node.js Project`} />
+				<meta name="author" content="S M Morshed" />
+				<meta name="robots" content="index, follow" />
+
+				{/* Open Graph / Facebook */}
+				<meta property="og:type" content="article" />
+				<meta property="og:url" content={`https://portfolio.smmorshed.tech/showcase/project/${param.id}`} />
+				<meta property="og:title" content={`${title} | S M Morshed Portfolio`} />
+				<meta property="og:description" content={`${description} - MERN Stack project by S M Morshed featuring ${technologies?.join(', ')}.`} />
+				<meta property="og:image" content={imageUrl} />
+				<meta property="og:site_name" content="S M Morshed Portfolio" />
+				<meta property="og:locale" content="en_US" />
+
+				{/* Twitter */}
+				<meta property="twitter:card" content="summary_large_image" />
+				<meta property="twitter:url" content={`https://portfolio.smmorshed.tech/showcase/project/${param.id}`} />
+				<meta property="twitter:title" content={`${title} | S M Morshed Portfolio`} />
+				<meta property="twitter:description" content={`${description} - MERN Stack project by S M Morshed.`} />
+				<meta property="twitter:image" content={imageUrl} />
+
+				{/* Additional SEO */}
+				<link rel="canonical" href={`https://portfolio.smmorshed.tech/showcase/project/${param.id}`} />
+			</Helmet>
 			<section>
 				<Heading title={title} delay={0.5} />
 				<motion.div

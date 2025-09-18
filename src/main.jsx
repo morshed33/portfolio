@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 import Layout from "./Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -41,5 +42,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-	<RouterProvider router={router}></RouterProvider>
+	<HelmetProvider>
+		<RouterProvider router={router}></RouterProvider>
+	</HelmetProvider>
 );

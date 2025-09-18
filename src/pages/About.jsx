@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import morshed from "../assets/Morshed.jpg";
 import {
 	FaMapPin,
@@ -23,6 +24,69 @@ import Heading from "../components/Heading";
 const About = () => {
 	return (
 		<>
+			<Helmet>
+				<title>About S M Morshed | MERN Stack Developer | Skills & Experience</title>
+				<meta name="description" content="Learn about S M Morshed, a MERN Stack Developer from Dhaka, Bangladesh. Discover my skills in React, Node.js, MongoDB, Express.js, and my journey in web development." />
+				<meta name="keywords" content="About S M Morshed, MERN Stack Developer, React Developer, Node.js Developer, MongoDB, Express.js, JavaScript, Web Development Skills, Programming Hero" />
+				<meta name="author" content="S M Morshed" />
+				<meta name="robots" content="index, follow" />
+
+				{/* Open Graph / Facebook */}
+				<meta property="og:type" content="profile" />
+				<meta property="og:url" content="https://portfolio.smmorshed.tech/about" />
+				<meta property="og:title" content="About S M Morshed | MERN Stack Developer" />
+				<meta property="og:description" content="Professional MERN Stack Developer with expertise in React, Node.js, MongoDB, and Express.js. Learn about my skills and experience." />
+				<meta property="og:image" content="https://portfolio.smmorshed.tech/Morshed.jpg" />
+				<meta property="og:site_name" content="S M Morshed Portfolio" />
+				<meta property="og:locale" content="en_US" />
+
+				{/* Twitter */}
+				<meta property="twitter:card" content="summary_large_image" />
+				<meta property="twitter:url" content="https://portfolio.smmorshed.tech/about" />
+				<meta property="twitter:title" content="About S M Morshed | MERN Stack Developer" />
+				<meta property="twitter:description" content="Professional MERN Stack Developer with expertise in React, Node.js, MongoDB, and Express.js." />
+				<meta property="twitter:image" content="https://portfolio.smmorshed.tech/Morshed.jpg" />
+
+				{/* Additional SEO */}
+				<link rel="canonical" href="https://portfolio.smmorshed.tech/about" />
+				
+				{/* Structured Data */}
+				<script type="application/ld+json">
+				{JSON.stringify({
+					"@context": "https://schema.org",
+					"@type": "Person",
+					"name": "S M Morshed",
+					"jobTitle": "MERN Stack Developer",
+					"description": "Professional MERN Stack Developer with expertise in React, Node.js, MongoDB, and Express.js. Passionate about creating innovative web applications.",
+					"url": "https://portfolio.smmorshed.tech/about",
+					"image": "https://portfolio.smmorshed.tech/Morshed.jpg",
+					"sameAs": [
+						"https://github.com/morshed33",
+						"https://www.linkedin.com/in/s-m-morshed-/",
+						"https://www.facebook.com/profile.php?id=100008050000000"
+					],
+					"address": {
+						"@type": "PostalAddress",
+						"addressLocality": "Dhaka",
+						"addressCountry": "Bangladesh"
+					},
+					"knowsAbout": [
+						"React",
+						"Node.js",
+						"MongoDB",
+						"Express.js",
+						"JavaScript",
+						"Tailwind CSS",
+						"Web Development",
+						"MERN Stack"
+					],
+					"alumniOf": {
+						"@type": "EducationalOrganization",
+						"name": "Programming Hero"
+					}
+				})}
+				</script>
+			</Helmet>
 			<section>
 				<Heading title="About" paragraph="A little about me" />
 				<motion.div
@@ -44,13 +108,13 @@ const About = () => {
 												delay: 0.25,
 											}}>
 											<img
-												alt="Image of S M Morshed"
+												alt="Professional photo of S M Morshed, MERN Stack Developer"
 												src={morshed}
 												className="shadow-2xl rounded-full h-auto align-middle border-none absolute -m-[136px] -ml-20 lg:-ml-16"
 												style={{ maxWidth: "150px" }}
 												width={150}
 												height={150}
-												priority
+												loading="lazy"
 											/>
 										</motion.div>
 									</div>

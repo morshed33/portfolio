@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import Heading from "../components/Heading";
 import { motion } from "framer-motion";
 import * as emailjs from "@emailjs/browser";
@@ -59,6 +60,32 @@ const Contact = () => {
 
 	return (
 		<>
+			<Helmet>
+				<title>Contact S M Morshed | MERN Stack Developer | Get In Touch</title>
+				<meta name="description" content="Contact S M Morshed, MERN Stack Developer from Dhaka, Bangladesh. Send me a message for collaboration, job opportunities, or project inquiries." />
+				<meta name="keywords" content="Contact S M Morshed, MERN Stack Developer Contact, Hire Web Developer, React Developer Contact, Node.js Developer, Bangladesh Developer" />
+				<meta name="author" content="S M Morshed" />
+				<meta name="robots" content="index, follow" />
+
+				{/* Open Graph / Facebook */}
+				<meta property="og:type" content="website" />
+				<meta property="og:url" content="https://portfolio.smmorshed.tech/contact" />
+				<meta property="og:title" content="Contact S M Morshed | MERN Stack Developer" />
+				<meta property="og:description" content="Get in touch with S M Morshed for web development projects, collaboration opportunities, or job inquiries." />
+				<meta property="og:image" content="https://portfolio.smmorshed.tech/Morshed.jpg" />
+				<meta property="og:site_name" content="S M Morshed Portfolio" />
+				<meta property="og:locale" content="en_US" />
+
+				{/* Twitter */}
+				<meta property="twitter:card" content="summary_large_image" />
+				<meta property="twitter:url" content="https://portfolio.smmorshed.tech/contact" />
+				<meta property="twitter:title" content="Contact S M Morshed | MERN Stack Developer" />
+				<meta property="twitter:description" content="Get in touch with S M Morshed for web development projects and collaboration opportunities." />
+				<meta property="twitter:image" content="https://portfolio.smmorshed.tech/Morshed.jpg" />
+
+				{/* Additional SEO */}
+				<link rel="canonical" href="https://portfolio.smmorshed.tech/contact" />
+			</Helmet>
 			{formData.loading ? <div className="form-loading-bar"></div> : ""}
 			<section>
 				<Heading

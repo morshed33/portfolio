@@ -17,13 +17,15 @@ const PortfolioCard = ({
     <div onClick={() => {
       navigate(`project/${title}`)
     }} className="max-w-screen border cursor-pointer   h-full overflow-hidden rounded-lg shadow-2xl bg-white dark:bg-slate-800">
-			<div
-				className="bg-cover bg-center h-48 w-full "
-				style={{
-					backgroundImage: `url('${imageUrl}')`,
-				}}
-				alt={alt}>
-				
+			<div className="h-48 w-full overflow-hidden">
+				<img
+					src={imageUrl}
+					alt={alt || `${title} - MERN Stack Project by S M Morshed`}
+					className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+					loading="lazy"
+					width="400"
+					height="192"
+				/>
 			</div>
 			
 			<div className="px-6 py-4 h-20">
