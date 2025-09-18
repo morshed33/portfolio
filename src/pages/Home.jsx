@@ -10,21 +10,21 @@ const Home = () => {
 	return (
 		<>
 			<Helmet>
-				<title>S M Morshed | MERN Stack Developer | Portfolio</title>
-				<meta name="description" content="S M Morshed - Professional MERN Stack Developer from Dhaka, Bangladesh. Specializing in React, Node.js, MongoDB, and Express.js. View my portfolio and projects." />
-				<meta name="keywords" content="MERN Stack Developer, React Developer, Node.js, MongoDB, Express.js, JavaScript, Web Developer, Frontend Developer, Backend Developer, Portfolio" />
+				<title>S M Morshed - MERN Stack Developer Portfolio | React, Node.js, MongoDB Expert</title>
+				<meta name="description" content="Discover S M Morshed's professional portfolio - Expert MERN Stack Developer specializing in React, Node.js, MongoDB, and Express.js. View impressive web development projects and get in touch for collaboration opportunities." />
+				<meta name="keywords" content="MERN Stack Developer, React Developer, Node.js, MongoDB, Express.js, JavaScript, Web Developer, Frontend Developer, Backend Developer, Portfolio, Bangladesh Developer" />
 				<meta name="author" content="S M Morshed" />
 				<meta name="robots" content="index, follow" />
 
 				{/* Open Graph / Facebook */}
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://portfolio.smmorshed.tech/" />
-				<meta property="og:title" content="S M Morshed | MERN Stack Developer" />
-				<meta property="og:description" content="Professional MERN Stack Developer specializing in React, Node.js, MongoDB, and Express.js. Explore my portfolio and projects." />
-				<meta property="og:image" content="https://portfolio.smmorshed.tech/Morshed.jpg" />
-				<meta property="og:image:width" content="300" />
-				<meta property="og:image:height" content="300" />
-				<meta property="og:image:alt" content="Professional headshot of S M Morshed, MERN Stack Developer" />
+				<meta property="og:title" content="S M Morshed - MERN Stack Developer Portfolio | React, Node.js, MongoDB Expert" />
+				<meta property="og:description" content="Discover S M Morshed's professional portfolio - Expert MERN Stack Developer specializing in React, Node.js, MongoDB, and Express.js. View impressive web development projects and get in touch for collaboration opportunities." />
+				<meta property="og:image" content="https://portfolio.smmorshed.tech/social-banner.jpg" />
+				<meta property="og:image:width" content="1200" />
+				<meta property="og:image:height" content="630" />
+				<meta property="og:image:alt" content="S M Morshed - MERN Stack Developer Portfolio Banner" />
 				<meta property="og:image:type" content="image/jpeg" />
 				<meta property="og:site_name" content="S M Morshed Portfolio" />
 				<meta property="og:locale" content="en_US" />
@@ -32,10 +32,10 @@ const Home = () => {
 				{/* Twitter */}
 				<meta property="twitter:card" content="summary_large_image" />
 				<meta property="twitter:url" content="https://portfolio.smmorshed.tech/" />
-				<meta property="twitter:title" content="S M Morshed | MERN Stack Developer" />
-				<meta property="twitter:description" content="Professional MERN Stack Developer specializing in React, Node.js, MongoDB, and Express.js." />
-				<meta property="twitter:image" content="https://portfolio.smmorshed.tech/Morshed.jpg" />
-				<meta property="twitter:image:alt" content="Professional headshot of S M Morshed, MERN Stack Developer" />
+				<meta property="twitter:title" content="S M Morshed - MERN Stack Developer Portfolio | React, Node.js, MongoDB Expert" />
+				<meta property="twitter:description" content="Discover S M Morshed's professional portfolio - Expert MERN Stack Developer specializing in React, Node.js, MongoDB, and Express.js." />
+				<meta property="twitter:image" content="https://portfolio.smmorshed.tech/social-banner.jpg" />
+				<meta property="twitter:image:alt" content="S M Morshed - MERN Stack Developer Portfolio Banner" />
 
 				{/* Additional SEO */}
 				<link rel="canonical" href="https://portfolio.smmorshed.tech/" />

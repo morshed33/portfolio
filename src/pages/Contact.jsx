@@ -72,10 +72,10 @@ const Contact = () => {
 				<meta property="og:url" content="https://portfolio.smmorshed.tech/contact" />
 				<meta property="og:title" content="Contact S M Morshed | MERN Stack Developer" />
 				<meta property="og:description" content="Get in touch with S M Morshed for web development projects, collaboration opportunities, or job inquiries." />
-				<meta property="og:image" content="https://portfolio.smmorshed.tech/Morshed.jpg" />
-				<meta property="og:image:width" content="300" />
-				<meta property="og:image:height" content="300" />
-				<meta property="og:image:alt" content="Professional headshot of S M Morshed, MERN Stack Developer" />
+				<meta property="og:image" content="https://portfolio.smmorshed.tech/social-banner.jpg" />
+				<meta property="og:image:width" content="1200" />
+				<meta property="og:image:height" content="630" />
+				<meta property="og:image:alt" content="S M Morshed - MERN Stack Developer Portfolio Banner" />
 				<meta property="og:image:type" content="image/jpeg" />
 				<meta property="og:site_name" content="S M Morshed Portfolio" />
 				<meta property="og:locale" content="en_US" />

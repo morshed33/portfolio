@@ -56,9 +56,9 @@ const Project = () => {
 				<meta property="og:url" content={`https://portfolio.smmorshed.tech/showcase/project/${param.id}`} />
 				<meta property="og:title" content={`${title} | S M Morshed Portfolio`} />
 				<meta property="og:description" content={`${description} - MERN Stack project by S M Morshed featuring ${technologies?.join(', ')}.`} />
-				<meta property="og:image" content={imageUrl} />
-				<meta property="og:image:width" content="400" />
-				<meta property="og:image:height" content="300" />
+				<meta property="og:image" content="https://portfolio.smmorshed.tech/social-banner.jpg" />
+				<meta property="og:image:width" content="1200" />
+				<meta property="og:image:height" content="630" />
 				<meta property="og:image:alt" content={`${title} - MERN Stack Project by S M Morshed`} />
 				<meta property="og:image:type" content="image/jpeg" />
 				<meta property="og:site_name" content="S M Morshed Portfolio" />
@@ -69,7 +69,7 @@ const Project = () => {
 				<meta property="twitter:url" content={`https://portfolio.smmorshed.tech/showcase/project/${param.id}`} />
 				<meta property="twitter:title" content={`${title} | S M Morshed Portfolio`} />
 				<meta property="twitter:description" content={`${description} - MERN Stack project by S M Morshed.`} />
-				<meta property="twitter:image" content={imageUrl} />
+				<meta property="twitter:image" content="https://portfolio.smmorshed.tech/social-banner.jpg" />
 				<meta property="twitter:image:alt" content={`${title} - MERN Stack Project by S M Morshed`} />
 
 				{/* Additional SEO */}
